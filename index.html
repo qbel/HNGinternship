@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HNG Internship</title>
+		<meta charset="UTF-8">
+	</head>
+	<style>
+		body{
+			padding:0px;		
+			margin:0px;
+		}
+		#head{
+			background-color: #56CCF2;
+			padding:3px;
+		}
+		#logo{
+			padding-top: 15px;
+			padding-left: 25px;
+			color: #fff;
+			font-size: 40px;
+			/*text-align: center;*/
+		}
+		.container{
+			filter: brightness(70%);
+			/*opacity: 0;*/
+			/*background: rgba(0, 0, 0, .6);*/
+			/*background-blend-mode: screen multiply;*/
+			/*background: linear-gradient(rgba(20,20,20, .5),rgba(20,20,20, .5));*/
+			/*opacity: 0.9;*/
+			background-size: cover;
+			background-image: url("img/img2.jpg") ; 
+			background-repeat: no-repeat;
+			height: 800px;
+			width: 100%;
+			background-position: 50% 50%;
+			margin-top: 0px;
+		}
+		#main{
+			text-align:center;
+			margin-top:300px;
+			color:#fff;
+			font-size: 150px;
+			font-family:roboto;
+		}
+		
+	</style>
+	<body>
+		
+		<div class="container">
+			<header id="head">
+				<div id="logo">HNG</div>
+				
+			</header>
+			<div>
+				<p id="main">
+							<?php
+								echo date("h:i");
+							?>
+						</p>
+			</div>
+			
+		</div>
+	</body>
+</html>
